@@ -1,6 +1,7 @@
 import './styles.css';
 
-function Header() {
+function Header({ currentPage, setCurrentPage }) {
+
   return (
     <header className="header">
       <a className='skip-to-main' href='#main' >Skip to Main Content</a>
@@ -8,18 +9,18 @@ function Header() {
         <h1>Nathan Cuevas</h1>
         <nav aria-labelledby='primary-navigation-label'>
           <span className='sr-only' id='primary-navigation-label' >Primary Navigation</span>
-          <ul className='primary-nav-links'>
+          <ul className='header__links'>
             <li>
-              <a href="#about-me">About Me</a>
+              <button onClick={() => setCurrentPage('About')}>About Me</button>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <button onClick={() => setCurrentPage('Portfolio')} >Portfolio</button>
             </li>
             <li>
-              <a href="#contact-me">Contact Me</a>
+              <button onClick={() => setCurrentPage('Contact')} >Contact Me</button>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <button onClick={() => setCurrentPage('Resume')} >Resume</button>
             </li>
           </ul>
         </nav>

@@ -30,7 +30,9 @@ header .skip-to-main:focus {
   top: 100%;
 }
 
-header .primary-nav-links {
+
+
+header .header__links {
   display: flex;
   justify-content: center;
   align-items: center;
