@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Demonstration of a portfolio built with React. This portfolio is a single page application that uses Conditional rendering to navigate between the "pages". The portfolio is deployed to GitHub Pages.
+
+## Current Projects
+
+* [JavaScript Notbooks]()
+* [React Portfolio]()
+* [Employee CMS CLI]()
+* [Social Network API]()
+* [E-Commerce Backend]()
 
 ## Available Scripts
 
