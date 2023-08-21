@@ -1,8 +1,13 @@
+import Hero from "../components/Hero";
+
 function Home() {
   return (
-    <section id='main'>
-      Home
-    </section>
+    <>
+      <Hero />
+      <section id='main'>
+        Home
+      </section>
+    </>
   );
 }
 

@@ -1,7 +1,10 @@
+import './styles.css';
+
 function Footer() {
   return (
     <footer>
-      <nav>
+      <nav className='external__navigation' aria-labelledby='external__navigation-label' >
+        <span id='external__navigation-label' className='sr-only' >External Links</span>
         <ul>
           <li>
             <a target='_blank' rel='noreferrer' href='https://github.com/NateAyye' >
@@ -23,7 +26,6 @@ function Footer() {
           </li>
         </ul>
       </nav>
-      <p>Footer</p>
     </footer>
   );
 }
