@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./pages/About";
@@ -10,14 +10,23 @@ import Resume from "./pages/Resume";
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
+  useEffect(() => {
+    const currentPage = localStorage.getItem('currentPage');
+    if (currentPage) {
+      setCurrentPage(currentPage);
+    }
+  }, [])
+
   return (
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === 'Home' && <Home />}
-      {currentPage === 'About' && <About />}
-      {currentPage === 'Portfolio' && <Portfolio />}
-      {currentPage === 'Contact' && <Contact />}
-      {currentPage === 'Resume' && <Resume />}
+      <main>
+        {currentPage === 'Home' && <Home />}
+        {currentPage === 'About Me' && <About />}
+        {currentPage === 'Portfolio' && <Portfolio />}
+        {currentPage === 'Contact Me' && <Contact />}
+        {currentPage === 'Resume' && <Resume />}
+      </main>
       <Footer />
     </div>
   );

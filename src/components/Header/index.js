@@ -1,6 +1,12 @@
+import { LINKS } from '../../config/constants';
 import './styles.css';
 
 function Header({ currentPage, setCurrentPage }) {
+
+  function setCurrentTab(link) {
+    setCurrentPage(link);
+    localStorage.setItem('currentPage', link);
+  }
 
   return (
     <header className="header">
@@ -10,18 +16,15 @@ function Header({ currentPage, setCurrentPage }) {
         <nav aria-labelledby='primary-navigation-label'>
           <span className='sr-only' id='primary-navigation-label' >Primary Navigation</span>
           <ul className='header__links'>
-            <li>
-              <button onClick={() => setCurrentPage('About')}>About Me</button>
-            </li>
-            <li>
-              <button onClick={() => setCurrentPage('Portfolio')} >Portfolio</button>
-            </li>
-            <li>
-              <button onClick={() => setCurrentPage('Contact')} >Contact Me</button>
-            </li>
-            <li>
-              <button onClick={() => setCurrentPage('Resume')} >Resume</button>
-            </li>
+            {LINKS.map(link => (
+              <li key={link}>
+                <button
+                  className={` ${ currentPage === link ? 'active' : '' } `}
+                  onClick={() => setCurrentTab(link)}>
+                  {link}
+                </button>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
