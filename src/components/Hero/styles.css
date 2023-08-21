@@ -1,0 +1,16 @@
+
+.hero_section {
+  display: grid;
+  background-image: url('../../assets/hero_background_image.png');
+  background-position-y: 45%;
+  padding: 1rem 3rem;
+  grid-template-columns: 1fr 1fr;
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    grid-template-columns: 1fr;
+  }
+}
+
