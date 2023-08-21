@@ -1,8 +1,8 @@
 function Contact() {
   return (
-    <div>
+    <section id='main'>
       Contact
-    </div>
+    </section>
   )
 }
 

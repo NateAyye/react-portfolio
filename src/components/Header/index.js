@@ -1,4 +1,4 @@
-import { LINKS } from '../../config/constants';
+import Navigation from '../Navigation';
 import './styles.css';
 
 function Header({ currentPage, setCurrentPage }) {
@@ -13,20 +13,7 @@ function Header({ currentPage, setCurrentPage }) {
       <a className='skip-to-main' href='#main' >Skip to Main Content</a>
       <div className='header__container'>
         <h1>Nathan Cuevas</h1>
-        <nav aria-labelledby='primary-navigation-label'>
-          <span className='sr-only' id='primary-navigation-label' >Primary Navigation</span>
-          <ul className='header__links'>
-            {LINKS.map(link => (
-              <li key={link}>
-                <button
-                  className={` ${ currentPage === link ? 'active' : '' } `}
-                  onClick={() => setCurrentTab(link)}>
-                  {link}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <Navigation currentPage={currentPage} setCurrentTab={setCurrentTab} />
       </div>
     </header>
   );

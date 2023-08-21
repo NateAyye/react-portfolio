@@ -1,8 +1,8 @@
 function Portfolio() {
   return (
-    <div>
+    <section id='main'>
       Portfolio
-    </div>
+    </section>
   )
 }
 
