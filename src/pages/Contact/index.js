@@ -68,7 +68,7 @@ function Contact() {
         </div>
         <div className="form-group">
           <label htmlFor="exampleFormControlInput3">Message</label>
-          <textarea onChange={handleChange} name="message" cols={20} rows={10} className="form-control" id="exampleFormControlInput3" >{formState.message.value}</textarea>
+          <textarea value={formState.message.value} onChange={handleChange} name="message" cols={20} rows={10} className="form-control" id="exampleFormControlInput3" ></textarea>
           <span className="form-group__error">{didTrySubmit && !formState.message.isValid && 'Please enter a message'}</span>
         </div>
         <button onClick={handleSubmit} >Submit</button>
