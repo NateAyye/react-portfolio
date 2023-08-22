@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e7009bcb.css",
-    "main.js": "/react-portfolio/static/js/main.87e1d031.js",
+    "main.js": "/react-portfolio/static/js/main.ce8c2caf.js",
     "static/media/hero_background_image.png": "/react-portfolio/static/media/hero_background_image.a24b8130a2b2df80a64a.png",
     "static/media/svgen.png": "/react-portfolio/static/media/svgen.e287679f86252a3bc0d9.png",
     "static/media/dark-theme.png": "/react-portfolio/static/media/dark-theme.6e9eabe3f872ef8ef1a8.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.ec2a59c3c3e79499d2d0.pdf",
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.0ddd87b8831abc5c4bb1.png",
+    "static/media/hero_img2.png": "/react-portfolio/static/media/hero_img2.12be3c15295b363713c1.png",
     "static/media/fiGlance.png": "/react-portfolio/static/media/fiGlance.4fe4aa18b82baf3800e5.png",
     "static/media/jate.png": "/react-portfolio/static/media/jate.5a5c566884f9908f426c.png",
     "static/media/custom-note-taker.png": "/react-portfolio/static/media/custom-note-taker.e4056648dbbe2389b8aa.png",
     "index.html": "/react-portfolio/index.html",
     "static/media/external_link.svg": "/react-portfolio/static/media/external_link.fcdfb5e9e352197ba3d4.svg",
     "main.e7009bcb.css.map": "/react-portfolio/static/css/main.e7009bcb.css.map",
-    "main.87e1d031.js.map": "/react-portfolio/static/js/main.87e1d031.js.map"
+    "main.ce8c2caf.js.map": "/react-portfolio/static/js/main.ce8c2caf.js.map"
   },
   "entrypoints": [
     "static/css/main.e7009bcb.css",
-    "static/js/main.87e1d031.js"
+    "static/js/main.ce8c2caf.js"
   ]
 }
