@@ -8,8 +8,12 @@
   min-height: 400px;
 }
 
+.hero_section__description p {
+  text-indent: 1rem;
+}
 .hero_section__description {
   padding: 1rem 1rem;
+  max-width: 600px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 1rem;

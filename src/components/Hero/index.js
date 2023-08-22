@@ -19,7 +19,9 @@ function Hero() {
           ]}
           speed={10}
           repeat={1}
-          style={{ fontSize: '2em', fontWeight: '600' }}
+          cursor={true}
+          spellCheck
+          style={{ fontSize: '2em', fontWeight: '700', color: 'hsla(var(--black), 1)' }}
         />
         <br />
         <p>
