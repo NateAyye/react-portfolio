@@ -18,11 +18,12 @@
   position: absolute;
   inset: 0;
   padding: 2rem 3rem;
-  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 50px 20px rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(5px);
   transition: all 0.3s ease-in-out;
 }
 .projects__card .project__details:hover {
+  box-shadow: none;
   backdrop-filter: blur(0);
 }
 .projects__card .project__details a.project__title {

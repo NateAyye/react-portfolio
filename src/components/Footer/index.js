@@ -3,6 +3,9 @@ import './styles.css';
 function Footer() {
   return (
     <footer>
+      <div style={{ color: 'hsla(var(--white), 1)' }}>
+        <p>&copy; {new Date().getFullYear()} Nathan Cuevas</p>
+      </div>
       <nav className='external__navigation' aria-labelledby='external__navigation-label' >
         <span id='external__navigation-label' className='sr-only' >External Links</span>
         <ul>
@@ -26,6 +29,9 @@ function Footer() {
           </li>
         </ul>
       </nav>
+      <div>
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NateAyye/react-portfolio" />
+      </div>
     </footer>
   );
 }
