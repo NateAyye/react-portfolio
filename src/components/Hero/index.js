@@ -1,10 +1,34 @@
+import { TypeAnimation } from 'react-type-animation';
 import './styles.css';
 
 function Hero() {
   return (
     <div className="hero_section">
-      <div>About Me</div>
-      <div>Image</div>
+      <div>
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed once, initially
+            'Looking for Backend?',
+            3000,
+            'Looking for Frontend?',
+            3000,
+            'Looking for Full Stack?',
+            3000,
+            'Looking for Me?',
+            10000,
+          ]}
+          speed={10}
+          repeat={1}
+          style={{ fontSize: '2em', fontWeight: '600' }}
+        />
+        <br />
+        <p>
+          I'm a Full Stack Developer with just over 1 year of experience in the industry. I have a passion for learning and sharing my knowledge with others as publicly as possible. I have a good experience in developing web applications using ReactJS, NodeJS, ExpressJS, MongoDB, MySQL, HTML, CSS, JavaScript, Bootstrap, Material UI, Git, GitHub, and Heroku.
+        </p>
+      </div>
+      <div>
+        <img alt='Developer' src='/hero_img2.png' />
+      </div>
     </div>
   )
 }
