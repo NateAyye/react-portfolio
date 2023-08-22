@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  padding-bottom: 0.5rem;
   list-style: none;
   color: hsla(var(--gold), 1);
 }

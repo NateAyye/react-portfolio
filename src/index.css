@@ -44,9 +44,18 @@
   border-width: 0;
 }
 
+a[target='_blank'] {
+  position: relative;
+}
+
 a[target='_blank']::after {
   content: url('./assets/external_link.svg');
   margin-left: 0.5rem;
   vertical-align: middle;
+  position: absolute;
+  scale: 0.6;
+  top: 0;
+  right: -5px;
+  transform: translate(50%, -50%);
   fill: hsla(var(--indigo), 0.8);
 }

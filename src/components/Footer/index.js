@@ -20,7 +20,7 @@ function Footer() {
           </li>
           <li>
             <a target='_blank' rel='noreferrer' href='https://stackoverflow.com/users/21148929/nateayye' >
-              <i className="nf nf-fa-stack_overflow xl"></i>
+              <i className="nf nf-fa-stack_overflow"></i>
               Stack Overflow
             </a>
           </li>
