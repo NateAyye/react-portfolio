@@ -1,14 +1,24 @@
 # React Portfolio
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub](https://img.shields.io/github/license/NateAyye/react-portfolio?label=License)
+
 A Demonstration of a portfolio built with React. This portfolio is a single page application that uses Conditional rendering to navigate between the "pages". The portfolio is deployed to GitHub Pages.
+
+This is to showcase my skills and projects all in one place so that employers can see what I am capable of. This portfolio is a work in progress and will be updated as I learn more and create more projects.
+
+[Live Site](https://nateayye.github.io/react-portfolio/)
+
+[Github Resume/Readme](https://github.com/NateAyye/NateAyye)
 
 ## Current Projects
 
-* [JavaScript Notbooks]()
-* [React Portfolio]()
-* [Employee CMS CLI]()
-* [Social Network API]()
-* [E-Commerce Backend]()
+- [JavaScript Notbooks](https://github.com/NateAyye/js-notebooks)
+- [React Portfolio](https://nateayye.github.io/react-portfolio/)
+- [Tech Blog](https://github.com/NateAyye/tech-jab-io)
+- [Fi Glance](https://github.com/NateAyye/Personal-Finance-Manager)
+- [VS Code Dark Theme](https://github.com/NateAyye/custom-github-dark-theme)
+- [SVG Logo Maker](https://github.com/NateAyye/svg-logo-maker)
 
 ## Available Scripts
 
@@ -22,11 +32,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -37,42 +42,33 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-### Analyzing the Bundle Size
+Basic Rules for contributing to this repo are gonna be held to standards with the [Contributor Convenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Standards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tests
 
-### Making a Progressive Web App
+No Test Setup For This Project Yet.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+Refer to the [MIT License](https://github.com/NateAyye/react-portfolio/blob/main/LICENSE) file within the root of the repository;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Find Me
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [GitHub](https://github.com/NateAyye)
+- [LinkedIn](https://www.linkedin.com/in/nathan-cuevas/)
+- [Stack Overflow](https://stackoverflow.com/users/21148929/nateayye)
+- [Email](mailto:nathanacueas97@gmail.com)
