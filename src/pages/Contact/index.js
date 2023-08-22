@@ -49,7 +49,7 @@ function Contact() {
     setDidTrySubmit(true);
     if (!formState.name.isValid || !formState.email.isValid || !formState.message.isValid) return;
     // TODO: Send email to myself with the users info and request.
-    console.log({ name: formState.name.value, email: formState.email.value, message: formState.message.value });
+    // console.log({ name: formState.name.value, email: formState.email.value, message: formState.message.value });
   }
 
   return (
