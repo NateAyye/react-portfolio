@@ -1,0 +1,29 @@
+.resume-page {
+  padding: 1rem 3rem;
+  margin: 0 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: hsla(var(--black), 0.9);
+  background-color: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.proficiencies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
+.proficiency-list h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: hsla(var(--gold), 0.9);
+}
+
+.proficiency-list ul {
+  list-style: inside;
+  padding: 0.5rem 1rem;
+}
