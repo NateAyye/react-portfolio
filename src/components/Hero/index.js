@@ -4,7 +4,7 @@ import './styles.css';
 function Hero() {
   return (
     <div className="hero_section">
-      <div>
+      <div className='hero_section__description'>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed once, initially
@@ -26,7 +26,7 @@ function Hero() {
           I'm a Full Stack Developer with just over 1 year of experience in the industry. I have a passion for learning and sharing my knowledge with others as publicly as possible. I have a good experience in developing web applications using ReactJS, NodeJS, ExpressJS, MongoDB, MySQL, HTML, CSS, JavaScript, Bootstrap, Material UI, Git, GitHub, and Heroku.
         </p>
       </div>
-      <div>
+      <div className='hero_section__image'>
         <img alt='Developer' src='/hero_img2.png' />
       </div>
     </div>
