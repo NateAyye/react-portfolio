@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
+import heroImg from '../../assets/hero_img2.png';
 import './styles.css';
-
 function Hero() {
   return (
     <div className="hero_section">
@@ -29,7 +29,7 @@ function Hero() {
         </p>
       </div>
       <div className='hero_section__image'>
-        <img alt='Developer' src='/hero_img2.png' />
+        <img alt='Developer' src={heroImg} />
       </div>
     </div>
   )
