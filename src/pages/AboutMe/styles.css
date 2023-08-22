@@ -1,0 +1,29 @@
+.my_story {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsla(var(--black), 0.2);
+}
+.my_story h2 {
+  font-size: 2.5rem;
+  color: hsla(var(--black), 1);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.my_story h2::after {
+  content: '';
+  display: block;
+  max-width: 300px;
+  height: 3px;
+  background-color: hsla(var(--gold), 1);
+  margin: 0.5rem auto;
+}
+
+.my_story p {
+  text-indent: 1rem;
+}
